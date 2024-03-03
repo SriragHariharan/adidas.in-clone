@@ -201,6 +201,36 @@ td {
     padding-left: 150px;
 }
 
+/* popular right now section */
+.popular-now-container{
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 80px;
+}
+
+.popular-text{
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.popular-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-item{
+    margin-top: 36px;
+    margin-bottom: 70px;
+    text-align: left;
+    font-weight: 900;
+    font-size: 46px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.popular-item:hover {
+    border-bottom: 7px solid black;
+}
 
 
 /* common styles */
