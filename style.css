@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbar-container{
+    width: 100%;
+    height: 34px;
+    background-color: black;
+}
+
+.topbar-text{
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 8px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.navbar-logo{
+    height: 40px;
+}
+.navbar-menus{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu-items{
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.navbar-menu-items:hover {
+    border-bottom: 4px solid black;
+}
+
+/* dropdown menu starts here */
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown .content {
+    margin-top: 110px;
+    display: none;
+    position: absolute;
+    width: 100vw;
+    /* height: 80vh; */
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 55px;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.expanded-menu-items{
+    cursor: pointer;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+.expanded-menu-items:hover {
+    font-weight: bold;
+}
+
+.sports-image{
+    height: 90px;
+    width: 200px;
+}
+
+.sub-brands-logo{
+    width: 200px;
+}
+
+/* navbar right portion styles */
+.top-menu{
+    margin-top: -24px;
+}
+
+.top-menu-items{
+    font-size: 12px;
+    margin-right: 10px;
+    color: rgb(146, 145, 145);
+    cursor: pointer;
+}
+
+.top-menu-items:hover {
+    border-bottom: 2px solid rgb(146, 145, 145);
+}
+
+.botton-menu{
+    margin-top: 14px;
+}
+
+.search-container{
+    background-color:rgb(213, 213, 213) ;
+    padding: 7px;
+    padding-right: 7px;
+}
+
+#search-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.botton-menu-logo{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* common styles */
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 350;
+}
+
+.red {
+    font-weight: 500;
+    color: red;
+}
