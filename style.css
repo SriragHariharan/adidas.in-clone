@@ -232,6 +232,134 @@ td {
     border-bottom: 7px solid black;
 }
 
+/* new arrivals styles */
+.new-arrivals-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    /* background-color: antiquewhite; */
+    cursor: pointer;
+}
+
+.new-arrivals-btn{
+    width: 140px;
+    padding: 16px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.best-adidas-btn {
+    font-size: 16px;
+    width: 140px;
+    font-weight: 500;
+    padding: 16px;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+}
+
+.best-adidas-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+/* new arrivals product slide */
+.slider-container {
+    width: 80vw;
+    overflow-x: auto;
+    margin-top: 40px;
+}
+
+.slider {
+    display: flex;
+    gap: 20px;
+    /* Adjust the gap between product cards */
+    padding: 10px;
+
+}
+
+.product-card {
+    flex: 0 0 auto;
+    /* Prevent product cards from growing or shrinking */
+    width: 300px;
+    /* Adjust the width of each product card */
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.product-card:hover {
+    border: 1px solid black;
+}
+
+.product-img {
+    background-image: url('https://assets.adidas.com/images/w_600,f_auto,q_auto/edc22517c3b847e2a6ce44fc64bf47ff_9366/Forum_Mod_Low_Shoes_Red_IG3766_01_standard.jpg');
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-img:hover .product-price {
+    transform: translateY(-50%);
+}
+
+.product-fav {
+    transform: translate(90%, 15px);
+}
+
+.product-price {
+    width: 80px;
+    background-color: white;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-name {
+    padding-left: 10px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.product-category {
+    padding-left: 10px;
+    font-size: 15px;
+    color: #707070;
+}
+
+/* scrollbar styles */
+/* For WebKit-based browsers */
+/* Change the color of the scrollbar */
+.slider-container::-webkit-scrollbar {
+    height: 5px;
+    padding: 400px;
+}
+
+.slider-container::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    /* Color of the scrollbar thumb */
+    border-radius: 500px;
+    /* Roundness of the scrollbar thumb */
+}
+
+.slider-container::-webkit-scrollbar-thumb:hover {
+    background-color: #495057;
+    /* Color of the scrollbar thumb on hover */
+}
+
+/* Change the color of the scrollbar track */
+.slider-container::-webkit-scrollbar-track {
+    background-color: #e9ecef;
+    /* Color of the scrollbar track */
+}
+
 
 /* common styles */
 .bold {
