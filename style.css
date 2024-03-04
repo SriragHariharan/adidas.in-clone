@@ -73,7 +73,7 @@
     margin-top: 20px;
 }
 
-td {
+.nav-sub-menu {
     padding-left: 15px;
     padding-right: 55px;
     margin-top: 0;
@@ -358,6 +358,43 @@ td {
 .slider-container::-webkit-scrollbar-track {
     background-color: #e9ecef;
     /* Color of the scrollbar track */
+}
+
+
+/* whats hot section */
+.whats-hot-container{
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.whats-hot-title{
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.hot-banner{
+    margin-top: 24px;
+    padding-right: 24px;
+    width: 300px;
+}
+
+.banner-title{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.banner-desc{
+    padding-top: 6px;
+    font-size: 12px;
+}
+
+.banner-link p{
+    text-decoration: underline;
+    padding-top: 36px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
