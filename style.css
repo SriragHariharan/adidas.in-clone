@@ -140,7 +140,7 @@
 
 /* shoe #1 styles */
 .shoe-container {
-    background-image: url('/images/yeezy-boost.jpg');
+    background-image: url('images/yeezy-boost.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -179,7 +179,7 @@
 }
 
 .offer-container{
-    background-image: url('/images/adidas-red-sneakers.jpg');
+    background-image: url('images/adidas-red-sneakers.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
